@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div id="container-background">
+        <h2>Weather Dashboard</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>SEARCH A CITY:</h4>
+                        <div class="form-inline md-form mr-auto mb-4">
+                            <input class="form-control mr-sm-2" type="text" id="search-cities" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-md btn-primary" id="search-cities-button" data-search="cities">Submit</button>
+                        </div>
+                    </div>
+                    <div class="cities">
+                        <div class="city-search" id="searches">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="jumbotron">
+                  <!-- <div class="currentWeather"></div> -->
+                  <div class="city" id="currentCity">
+                      </div>
+                      <img src="" id="cloudImage"/>
+                      <div class="wind" id="currentWind"></div>
+                      <div class="humidity" id="currentHumidity"></div>
+                      <div class="tempC" id="currentTemp"></div>
+                      <div class="tempK" id="currentTemp"></div>
+                      <div class="tempF" id="currentTempF"></div>
+                  </div>
+                </div>
+            </div>
+            <h2>5 Day Forecast</h2>
+            <div class="row" id="fiveDayRow">
+              
+                <!-- <div class="5Dayforecast-card">
+                    <div class="card-body">
+                        <p class="card-temperature"></p>
+                        <p class="card-humidity"></p>
+                    </div>
+                </div> -->
+            
+          
+            <!-- <div class="5Dayforecast-card">
+                <div class="card-body">
+                    <p class="card-temperature"></p>
+                    <p class="card-humidity"></p>
+                </div>
+            </div>
+            
+            <div class="5Dayforecast-card">
+                <div class="card-body">
+                    <p class="card-temperature"></p>
+                    <p class="card-humidity"></p>
+                </div>
+            </div>
+          
+            <div class="5Dayforecast-card">
+                <div class="card-body">
+                    <p class="card-temperature"></p>
+                    <p class="card-humidity"></p>
+                </div>
+            </div>
+          
+            <div class="5Dayforecast-card">
+                <div class="card-body">
+                    <p class="card-temperature"></p>
+                    <p class="card-humidity"></p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="weatherscript.js"></script>
+</body>
+
+</html>

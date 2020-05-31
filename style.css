@@ -1,0 +1,23 @@
+h2 {
+ color: white; 
+ text-align: center; 
+ padding: 10px; 
+}
+
+#container-background {
+background-color: black;
+max-width: 100%;
+
+}
+
+
+.jumbotron {
+max-width: 100%;
+
+}
+
+
+.card {
+max-width: 80%;
+
+}
